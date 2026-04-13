@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Profit Boardroom - Build 6-Figure Businesses With AI | Julian Goldie</title>
+    <meta name="description" content="Join 5,000+ entrepreneurs in the AI Profit Boardroom. Learn AI agents, automation, and SEO strategies to scale your business to 6-figures. Direct access to Julian Goldie.">
+    <meta name="keywords" content="AI Profit Boardroom, Julian Goldie, AI agents, business automation, SEO, 6-figure business, AI coaching">
+    <meta name="author" content="AI Profit Boardroom">
+    
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="AI Profit Boardroom - Build 6-Figure Businesses With AI">
+    <meta property="og:description" content="Join 5,000+ entrepreneurs learning to scale with AI agents and automation. Limited spots available.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310519663471530202/PNCpxKYmPVTbSXwnrkasqj/ai-profit-boardroom-hero-eeiSfhary9uZnFk4WrfBci.webp">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Sora', sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background-color: #ffffff;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #e5e7eb;
+            padding: 1rem 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #1f2937;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .nav-button {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .nav-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            color: #1f2937;
+            margin-bottom: 20px;
+        }
+
+        .hero .subheadline {
+            font-size: 1.5rem;
+            color: #2563eb;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #4b5563;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 16px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(37, 99, 235, 0.4);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #2563eb;
+            border: 2px solid #2563eb;
+        }
+
+        .btn-secondary:hover {
+            background: #f0f9ff;
+        }
+
+        .hero-image {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95rem;
+            color: #4b5563;
+            margin-top: 20px;
+        }
+
+        .trust-badge::before {
+            content: '✓';
+            color: #10b981;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Problem Section */
+        .problem {
+            background: #1f2937;
+            color: white;
+            padding: 80px 0;
+        }
+
+        .problem h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .problem p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #d1d5db;
+            margin-bottom: 20px;
+        }
+
+        /* Solution Section */
+        .solution {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #1f2937;
+        }
+
+        .section-header p {
+            font-size: 1.2rem;
+            color: #4b5563;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .feature-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 30px;
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-color: #2563eb;
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+
+        .feature-card p {
+            color: #4b5563;
+            font-size: 0.95rem;
+        }
+
+        /* Social Proof Section */
+        .social-proof {
+            background: #f9fafb;
+            padding: 80px 0;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .stars {
+            color: #fbbf24;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .testimonial p {
+            color: #4b5563;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 5px;
+        }
+
+        .testimonial-role {
+            font-size: 0.85rem;
+            color: #9ca3af;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            padding: 60px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .stat-item p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        /* Modules Section */
+        .modules {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .modules-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .module {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 4px solid #2563eb;
+        }
+
+        .module h3 {
+            color: #1f2937;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .module p {
+            color: #4b5563;
+            font-size: 0.95rem;
+        }
+
+        /* CTA Section */
+        .final-cta {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .final-cta p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            opacity: 0.95;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer */
+        footer {
+            background: #1f2937;
+            color: #d1d5db;
+            padding: 60px 0 20px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section a {
+            color: #d1d5db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #374151;
+            padding-top: 30px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .subheadline {
+                font-size: 1.2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .final-cta h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">AI</div>
+                <span>AI Profit Boardroom</span>
+            </div>
+            <button class="nav-button" onclick="scrollToSection('cta')">Join Now</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div>
+                    <h1>The AI Profit Boardroom: Where Entrepreneurs Learn to Build 6-Figure Businesses Using AI</h1>
+                    <p class="subheadline">Join 5,000+ Business Owners Who Are Using AI Agents, Automation, and SEO to Scale Their Businesses Faster Than Ever Before</p>
+                    
+                    <p>The game has changed. Five years ago, building a profitable online business required either a huge team or a lot of luck. Today? The right AI system can do the work of a 10-person team.</p>
+                    
+                    <p>But here's the problem: most people don't know how to use these tools. They see the potential but don't know where to start. They waste months trying to figure it out alone, or they follow outdated advice that doesn't work anymore.</p>
+
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="handleCheckout()">
+                            Join the AI Profit Boardroom
+                            <span>→</span>
+                        </button>
+                        <button class="btn btn-secondary">Watch Free Training</button>
+                    </div>
+
+                    <div class="trust-badge">
+                        No credit card required • 7-day free trial
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663471530202/PNCpxKYmPVTbSXwnrkasqj/ai-profit-boardroom-hero-eeiSfhary9uZnFk4WrfBci.webp" alt="AI Profit Boardroom - Executive Boardroom with AI Analytics">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <h2>You're Watching Opportunities Pass By</h2>
+            <p>You know AI is important. You see other businesses using it to scale. But you're stuck.</p>
+            <p>Maybe you don't know where to start. Maybe you've tried learning on your own and it feels overwhelming. Maybe you're following advice that's outdated or doesn't apply to your business.</p>
+            <p>The result? You're falling behind. While other entrepreneurs are automating their content creation, you're manually writing posts. While they're ranking for high-value keywords, you're struggling to get visibility. While they're generating leads on autopilot, you're still doing manual outreach.</p>
+            <p>And every day you wait, the gap gets bigger. The businesses that move first win. The ones that wait get left behind.</p>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution">
+        <div class="container">
+            <div class="section-header">
+                <h2>Everything You Need to Build a 6-Figure Business With AI</h2>
+                <p>Access to proven workflows, live Q&A sessions, and a community of 5,000+ entrepreneurs</p>
+            </div>
+
+            <div class="modules-list">
+                <div class="module">
+                    <h3>🤖 AI Agents & Automation</h3>
+                    <p>Learn how AI agents work, what they can actually do, and how to use them to automate your business. Practical, hands-on training with real workflows you can implement immediately.</p>
+                </div>
+                <div class="module">
+                    <h3>🔍 SEO Automation Using AI</h3>
+                    <p>Discover how to rank #1 on Google using AI-powered SEO strategies. Find high-opportunity keywords, create optimized content, and build authority—all with AI doing most of the heavy lifting.</p>
+                </div>
+                <div class="module">
+                    <h3>📝 Content Creation at Scale</h3>
+                    <p>Stop spending 10 hours creating one piece of content. Learn how to create 30 days of content in a single day using AI. We'll show you the exact tools, templates, and workflows that are working right now.</p>
+                </div>
+                <div class="module">
+                    <h3>💰 Lead Generation & Sales Automation</h3>
+                    <p>Build a system that generates leads 24/7 and qualifies them automatically. Learn how to set up AI-powered sales funnels that convert visitors into customers without you having to do anything.</p>
+                </div>
+                <div class="module">
+                    <h3>👤 Building Your Personal Brand</h3>
+                    <p>In 2026, your personal brand is your business. Learn how to build authority, attract customers, and create opportunities using AI-assisted content and strategic positioning.</p>
+                </div>
+                <div class="module">
+                    <h3>📈 Scaling From 6-Figures to 7-Figures</h3>
+                    <p>Once you've hit 6-figures, scaling gets harder. We'll show you the exact strategies for scaling beyond that point—from building teams to creating systems that don't depend on you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted by Entrepreneurs Everywhere</h2>
+                <p>Real results from real people in the AI Profit Boardroom</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"I joined the AI Profit Boardroom three weeks ago expecting to learn a few tips. Instead, I found a complete system for scaling a business. Within the first week, I had automated my entire content creation process. I'm now publishing 3x more content with 1/3 of the effort."</p>
+                    <div class="testimonial-author">Alex R.</div>
+                    <div class="testimonial-role">Content Creator</div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"I was skeptical about another 'AI course.' But this isn't a course—it's a real community of people actually building businesses. The workflows alone are worth 10x the investment. I've implemented three of them and they're already generating revenue."</p>
+                    <div class="testimonial-author">Marcus T.</div>
+                    <div class="testimonial-role">E-commerce Entrepreneur</div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"The AI Profit Boardroom changed how I think about business. I went from manually creating content to having an AI system that publishes across multiple platforms automatically. I went from spending 40 hours a week on my business to 10. And I'm making more money."</p>
+                    <div class="testimonial-author">Jessica L.</div>
+                    <div class="testimonial-role">Digital Agency Owner</div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"What impressed me most was the community. You get access to people who are actually succeeding, not just theory. When I had a question about scaling, I got responses from people who've already done it. That kind of real-world advice is invaluable."</p>
+                    <div class="testimonial-author">David K.</div>
+                    <div class="testimonial-role">SaaS Founder</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>5,000+</h3>
+                    <p>Active Members</p>
+                </div>
+                <div class="stat-item">
+                    <h3>$50M+</h3>
+                    <p>Revenue Generated</p>
+                </div>
+                <div class="stat-item">
+                    <h3>6-Figure</h3>
+                    <p>Average Member Goal</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Community Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta" id="cta">
+        <div class="container">
+            <h2>Ready to Build Your 6-Figure Business?</h2>
+            <p>Join thousands of entrepreneurs who are already using AI to scale their businesses. The time to act is now.</p>
+            <button class="btn btn-primary" style="background: white; color: #2563eb; font-size: 1.1rem; padding: 18px 40px;" onclick="handleCheckout()">
+                Join the AI Profit Boardroom Now
+                <span>→</span>
+            </button>
+            <p style="margin-top: 20px; opacity: 0.9; font-size: 0.95rem;">No credit card required • 7-day free trial • Cancel anytime</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Profit Boardroom. All rights reserved. | Inspired by Julian Goldie's AI Profit Boardroom</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function handleCheckout() {
+            // Replace with your actual Stripe payment link
+            const stripePaymentLink = "https://buy.stripe.com/test_placeholder";
+            window.open(stripePaymentLink, "_blank");
+        }
+
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
